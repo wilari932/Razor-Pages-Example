@@ -558,11 +558,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WilmarArias\\source\\repos\\RazorPagesExample.Web\\RazorPagesExample.Web\\RazorPagesExample.Web.csproj",
+      "projectUniqueName": "C:\\Users\\WilmarArias\\source\\repos\\Razorpages-Example\\Razor-Pages-Example\\RazorPagesExample.Web\\RazorPagesExample.Web.csproj",
       "projectName": "RazorPagesExample.Web",
-      "projectPath": "C:\\Users\\WilmarArias\\source\\repos\\RazorPagesExample.Web\\RazorPagesExample.Web\\RazorPagesExample.Web.csproj",
+      "projectPath": "C:\\Users\\WilmarArias\\source\\repos\\Razorpages-Example\\Razor-Pages-Example\\RazorPagesExample.Web\\RazorPagesExample.Web.csproj",
       "packagesPath": "C:\\Users\\WilmarArias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WilmarArias\\source\\repos\\RazorPagesExample.Web\\RazorPagesExample.Web\\obj\\",
+      "outputPath": "C:\\Users\\WilmarArias\\source\\repos\\Razorpages-Example\\Razor-Pages-Example\\RazorPagesExample.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
