@@ -1,0 +1,47 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+}
+
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>CreatedDate</th>
+            <th>UpdateDate</th>
+            <th>Actions</th>
+
+        </tr>
+    </thead>
+    <tbody>
+      
+        @foreach (var note in Model.NoteDtos)
+        {
+        <tr>
+            <td>@note.Name</td>
+            <td>@note.Description</td>
+            <td>@note.CreatedDate</td>
+            <td>@note.UpdateDate</td>
+            <td><a class="btn btn-success btn-lg" href="/editnote/?id=@note.Id">Editar</a></td>
+        </tr>
+        }
+    </tbody>
+   
+</table>
+
+
+
+@section Scripts {
+
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+    </script>
+}

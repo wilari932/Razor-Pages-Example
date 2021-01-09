@@ -1,0 +1,23 @@
+﻿@page
+@model RazorPagesExample.Web.Pages.EditNoteModel
+@{
+}
+
+@if (Model.NoteDto != null)
+{
+<h1 class="text-center text-capitalize text-primary">Editar Nota</h1>
+
+{await Html.RenderPartialAsync("Shared/_NoteForm.cshtml", Model.NoteDto);}
+
+<small  class="form-text text-muted">@Model.NoteDto.CreatedDate </small>
+
+<small class="form-text text-muted"> @Model.NoteDto.UpdateDate </small>
+
+ }
+    else {
+    
+<div class="alert alert-danger" role="alert">
+   La nota que buscas no ha sido encontrada!
+</div>
+    
+    }
